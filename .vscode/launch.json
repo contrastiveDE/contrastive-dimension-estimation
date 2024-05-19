@@ -6,7 +6,7 @@
             "type": "lldb",
             "request": "launch",
             "args": [],
-            "cwd": "/Users/lianama/contrastive-dimension",
+            "cwd": "/Users/contrastiveDE/contrastive-dimension-estimation",
             "program": "/Users/lianama/contrastive-dimension/build/Debug/outDebug"
           }
     ]

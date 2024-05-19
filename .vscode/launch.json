@@ -7,7 +7,7 @@
             "request": "launch",
             "args": [],
             "cwd": "/Users/contrastiveDE/contrastive-dimension-estimation",
-            "program": "/Users/lianama/contrastive-dimension/build/Debug/outDebug"
+            "program": "/Users/contrastiveDE/contrastive-dimension-estimation"
           }
     ]
 }

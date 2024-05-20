@@ -7,15 +7,15 @@ This repository cotains methods and experiments for contrastive dimension estima
 
 Dependency
 ------------
-Python 3.9.7
-anndata                  ( >= 0.10.7 )
-matplotlib               ( >= 3.8.4 )
-numpy                    ( >= 1.26.4)
-pandas                   ( >= 2.2.2 )
-Pillow                   ( >= 8.4.0 ) 
-scikit-dimension         ( >= 0.3.4 ) 
-scikit-learn             ( >= 0.24.2 )
-scipy                    ( >= 1.13.0 ) 
-seaborn                  ( >= 0.13.2 ) 
+- Python 3.9.7
+- anndata                  ( >= 0.10.7 )
+- matplotlib               ( >= 3.8.4 )
+- numpy                    ( >= 1.26.4)
+- pandas                   ( >= 2.2.2 )
+- Pillow                   ( >= 8.4.0 ) 
+- scikit-dimension         ( >= 0.3.4 ) 
+- scikit-learn             ( >= 0.24.2 )
+- scipy                    ( >= 1.13.0 ) 
+- seaborn                  ( >= 0.13.2 ) 
 
 

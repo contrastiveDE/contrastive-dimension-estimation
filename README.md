@@ -19,3 +19,6 @@ Dependency
 - seaborn                  ( >= 0.13.2 ) 
 
 
+Note
+-----------
+In the code,  d1 refers to d_x and d2 refers to d_y, and the CD refers to d_xy in the paper. 

@@ -80,7 +80,7 @@ def CD(X1, X2, d1, d2, epsilon=0.1, B=1000):
     singular_vals = sing_vals(OUT['V1'], OUT['V2'])
     singular_vals = singular_vals[::-1]
     L = {}
-    L['CD'] = sum(singular_vals < 1 - epsilon)
+    L['CD'] = sum(singular_vals < 1 - epsilon) + max(d1 - d2, 0)
     test = boot_test(X1, X2, d1, d2, B)
     L['test_stat'] = test['test_stat']
     L['p_value'] = test['p_value']

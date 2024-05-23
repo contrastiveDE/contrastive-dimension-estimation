@@ -114,7 +114,7 @@ CD = function(X1, X2, d1, d2, epsilon, B) {
   singular_vals <- rev(sing_vals(OUT$V1, OUT$V2))
   
   L <- list()
-  L$CD <- sum(singular_vals < 1 - epsilon)
+  L$CD <- sum(singular_vals < 1 - epsilon) + max(d1-d2, 0)
   
   test = boot_test(X1, X2, d1, d2, B)
   
